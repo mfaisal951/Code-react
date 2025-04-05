@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    "use strict ";
+    d=57;
+    let a=1;
+    console.log(a); 
+    function hello(){
+        console.log("i am faisal");
+
+    }
+    let obje={
+        b:10,
+        fun:function myfunct(num){
+            console.log("this is my first video", + num)
+        }
+
+
+    }
+
+document.addEventListener("click", function() { // Removed extra space
+    console.log("clicked");
+    //alert("This is working now!");
+    let conf= confirm("are you sure?");
+    console.log(conf);
+    })
+    //let arr=[12,43,56];
+    //console.log(this);
+
+    /*arr.forEach(Element=>{
+    console.log("")
+    });
+    */
+    
+   // let conf=(num)=>{
+ //       console.log("to select number",num)
+   // }
+    //conf();
+
+
+    //let func=(Number)=>{
+      //  console.log("this is my function" + this)
+    //}
+    //func();
+
+
+
+//let conf={
+//    func: function(Number){
+//    //func:(number)=>{
+//    a:this
+//        console.log(this)
+//        console.log("this is my function"+ this)
+//    }
+//    
+//}
+//conf.func();
+//console.log(a)
+
+
+// ###################### CAll BACK TERMONOLOGY #######################
+//let mobj={
+//    a:this,
+//    myfun:(numb)=>{
+//        console.log(this)
+//    }
+//}   
+//mobj.myfun();
+//
+//console.log(mobj.a)
+//setTimeout(()=>{
+//    console.log("this is logarithm")
+//},3000);
+//console.log("niche wali script ")
+
+//                                               This part of call back tromonology                      
+let mobj1={
+    a:this,
+    conf:(number)=>{
+        console.log(this)
+
+    }
+
+}
+mobj1.conf();
+setTimeout(()=>{
+    console.log("this is overtime condition")
+},3000
+
+);
+console.log("this is overtime conditions ")
+
+</script>
+<body>
+    <h1>i am learning.js
+
+    </h1>
+</body>
+</html>
